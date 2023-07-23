@@ -1,0 +1,66 @@
+.btn {
+  font-size: 20px;
+  font-weight: bold;
+  color:whitesmoke;
+  background-color: #53c28b;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.catTitle {
+  color: #53c28b;
+}
+
+.item {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width:550px) {
+  .mapContainer {
+    margin: 0px 5px !important;
+  }
+
+  .item {
+    display: block;
+  }
+
+  .imgContainer {
+    height: 200px !important;
+  }
+}
+
+.item:nth-child(2n+1) {
+  flex-direction: row-reverse;
+}
+
+.imgContainer {
+  flex: 1;
+  height: 300px;
+  position: relative;
+}
+
+.img {
+  object-fit: fill;
+  border-radius: 15px !important;
+
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.desc {
+  font-size: 20px;
+}

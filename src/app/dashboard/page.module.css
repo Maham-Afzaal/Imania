@@ -1,0 +1,27 @@
+
+.item {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .divs{
+    width: 50%;
+  }
+  .responsiveImg{
+    width: 500px;
+    height: 300px;
+    border-radius: 9px;
+  }
+@media screen and (max-width:640px){
+.item{
+    flex-direction: column;
+}
+.divs{
+    width: 100%;
+  }
+  .responsiveImg{
+    max-width: 100%;
+    height: auto;
+  }
+}
