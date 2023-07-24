@@ -29,7 +29,7 @@ const Navbar = () => {
                 <Link href='/about'><div className={styles.li}>About</div></Link>
                 <Link href='/contact'><div className={styles.li}>Contact</div></Link>
                 <Link href='/dashboard'><div className={styles.li}>Dashboard</div></Link>
-                <button className={`${styles.btn} ${styles.li}`}>Log Out</button>
+                {/* <button className={`${styles.btn} ${styles.li}`}>Log Out</button> */}
               </div>
               <div>
               <DarkModeToggle/>
