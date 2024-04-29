@@ -1,9 +1,9 @@
-.container {
+/* .container {
   display: flex;
   align-items: center;
   gap: 50px;
   margin-bottom: 50px;
-}
+} */
 
 .image{
   object-fit: cover;
@@ -19,4 +19,10 @@
 .desc{
   font-size: 18px;
   color: #999;
+}
+@media screen and (max-width: 600px) {
+  .container p,
+  .container h1 {
+    font-size: 10px;
+  }
 }
