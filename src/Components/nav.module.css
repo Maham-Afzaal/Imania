@@ -51,6 +51,7 @@
     font-weight: bold;
 }
 .li:hover{
+    /* color: black; */
     color: #6d597a;
 }
 @media screen and (max-width: 800px)    {
@@ -67,7 +68,7 @@
         opacity: 1;
         z-index: 1;
         background-color: #F0EEED;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         border-radius: 4px;
     }
     .li{
@@ -75,7 +76,8 @@
         display: block;
     }
     .li:hover{
-        background-color: #6d6875;
+        background-color: black;
+        /* background-color: #6d6875; */
     }
     .boxNo{
         display: none;
