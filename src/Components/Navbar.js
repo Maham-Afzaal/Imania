@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
         <div className={styles.main}>
-            <div className={styles.text}>Maham</div>
+            <div className={styles.text}>Imania</div>
            
             <div className={initial?styles.boxRow:styles.boxNo}>
                 <Link href='/'><div className={styles.li}>Home</div></Link>
